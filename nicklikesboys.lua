@@ -16,7 +16,7 @@ G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["2"].Draggable = true
 G2L["2"].Selectable = true
 G2L["2"].Active = true
-G2L["2"].ResetOnSpawn = false
+G2L["1"].ResetOnSpawn = false
 
 
 -- StarterGui.ScreenGui.Frame.UICorner
@@ -39,7 +39,7 @@ G2L["4"]["Text"] = [[Bank]];
 G2L["4"]["Position"] = UDim2.new(0, 0, 0.2, 0);
 G2L["4"].MouseButton1Click:Connect(function()
 	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1118.9351806640625, 8.221870422363281, -329.87969970703125)
-end
+end)
 
 
 -- StarterGui.ScreenGui.Frame.TextLabel.UICorner
