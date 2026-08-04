@@ -25,7 +25,7 @@ G2L["3"] = Instance.new("UICorner", G2L["2"]);
 
 
 -- StarterGui.ScreenGui.Frame.TextLabel
-G2L["4"] = Instance.new("TextLabel", G2L["2"]);
+G2L["4"] = Instance.new("TextButton", G2L["2"]);
 G2L["4"]["TextWrapped"] = true;
 G2L["4"]["BorderSizePixel"] = 0;
 G2L["4"]["TextSize"] = 14;
